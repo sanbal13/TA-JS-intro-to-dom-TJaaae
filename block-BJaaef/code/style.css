@@ -6,16 +6,62 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  grid-gap: 1rem;
+  padding: 0 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 2rem;
+  padding: 1rem;
 }
 .box {
-  border: 2px solid #d6bcfa;
-  height: 500px;
+  background-color: #fff;
   border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0.1rem 0.1rem 0.8rem 0.1rem #bacdff;
+}
+.page {
+  background-color: #F4F5F9;
+}
+img {
+  border-radius: 50%;
+  border: 0.2rem solid #4D8773;
+  margin-right: 1rem;
+}
+header{
+  background-color: #4075D5;
+  color: #fff;
+  padding: 1rem 0;
 }
 h1,
 h2 {
   text-align: center;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+ul {
+  list-style: none;
+}
+button {
+  width: 100%;
+  padding: 0.5rem 0;
+  border: none;
+  background-color: #E7EDFD;
+  color: #556EE0;
+  font-size: 1.3rem;
+  border-radius: 0.5rem;
+}
+p {
+  text-align: center;
+}
+
+.flex {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
 }
